@@ -1,0 +1,27 @@
+{
+  "type": "BeamDrill",
+  "name": "drill gold wall",
+  "description": "Jafar extracts resources from walls.",
+"health": 1200,  
+"size": 2,
+  "category": "production",
+  "research": "drill_sa_wall",
+  "requirements": [{"item":"gold","amount":14}],
+  "tier": 10,
+  "itemCapacity": 40,
+  "range": 10,
+  "drillTime": 40,
+  "fogRadius": 2,
+  
+  "consumes": {
+    "power": 0.375,
+    "liquid": {
+       "liquid": "water",
+      "amount": 0.0014,
+      "optional": true,
+      "booster": true
+    }
+  }
+  
+  alwaysUnlocked: true
+} 

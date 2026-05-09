@@ -1,0 +1,10 @@
+category:liquid 
+health:340
+"name": "tude fork",
+liquidCapcacity:12
+localizedName: tude fork
+requirements:[gold/1]
+research:tude fork
+size:1
+type:LiquidRouter 
+alwaysUnlocked: true

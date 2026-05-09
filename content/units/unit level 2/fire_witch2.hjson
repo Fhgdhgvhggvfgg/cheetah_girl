@@ -1,0 +1,106 @@
+name: fire witch power
+description: Cheetah Girl is an evolved witch with stronger fire projectiles.
+type: mech 
+mechLegColor: 565666FF
+health: 1800
+armor: 1
+"template": "ErekirUnitType",
+hitSize: 30
+stepShake: 0
+speed: 4
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+outlineColor: FFFF00FF
+
+  "abilities": [
+  ],
+
+weapons: [
+
+    {
+        name: light_cannon
+        rotate: true
+        mirror: true
+        x: 7
+        y: 7
+        reload: 20
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: flame
+        
+        bullet: {
+      type: BasicBulletType
+        sprite: circle-bullet
+        lightRadius: 10
+        lightColor: FF7436FF
+        damage: 120
+        scaleVelocity: true
+        splashDamage: 78
+        splashDamageRadius: 30
+        height: 6
+        width: 6
+        speed: 7
+        lifetime: 30
+        shrinkX: 0
+        shrinkY: 0
+        trailChance: 1
+        trailParam: 10
+        trailLength: 19
+        trailColor: FF7436FF
+        trailWidth: 5
+        trailEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset": 3
+          lightColor: FF7436FF
+          colorFrom: fff8e8
+          colorTo: FF7436FF
+          sizeFrom: 3
+          sizeTo: 0
+        },
+        despawnEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          lifetime: 20
+          length: 20
+          cone: 50
+          offset: 16
+          lightcolor: FFFF00
+          interp: circleOut
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FF7436FF
+          colorTo: FFFFF00
+          },
+          {
+          type: ParticleEffect
+          particles: 6
+          lifetime: 14
+          length: 20
+          cone: 50
+          offset: 16
+          lightcolor: FF7436FF
+          interp: circleOut
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FFFFF00
+          colorTo: FF7436FF
+           },
+        ]
+       }
+    }
+    
+
+
+
+]
+
+    alwaysUnlocked: true

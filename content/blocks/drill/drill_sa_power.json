@@ -1,0 +1,24 @@
+{
+  "name": "drill sa power",
+  "description": "This drill can drill any type of resource.",
+"health": 1000,  
+"type": "Drill",
+  "size": 3,
+  "tier": 8,
+  "itemCapacity": 80,
+  "drillTime": 120,
+  "hasPower": false,
+  "powerConsumes": 2,
+  "drawMineItem": false,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.02,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [{"item":"gold","amount":20}],
+  "category": "production",
+      alwaysUnlocked: true
+}

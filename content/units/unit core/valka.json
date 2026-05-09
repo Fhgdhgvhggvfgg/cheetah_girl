@@ -1,0 +1,85 @@
+{
+"type":"payload",
+alwaysUnlocked: false,
+buildRange:300,
+buildSpeed:6.5,
+accel: 0.06
+drag: 0.06
+description:Demon girl Cheetah launches spears and builds quickly.
+
+"template": "ErekirUnitType",
+hitSize: 30
+canAttack:true,
+contorller:BuilderAI,
+coreUnitDock:true,
+defaultController: BuilderAI,
+flying:true,
+health:3600,
+itemCapacity: 150,
+localisedName: "valka",
+mineFloor:true
+mineRange: 230
+"mineSpeed":15,
+mineTier: 6
+mineWalls:true
+speed: 7,
+  "engineSize": 0, 
+"rotateSpeed": 8.5,
+"payloadCapacity": 1500,
+
+
+abilities:[
+
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 0,
+      "spawnY": -40,
+      "unit": "treasure_chest",
+      "spawnTime": 2400
+    },
+
+]
+
+
+weapons: [
+
+
+{
+y: 14
+x: 0
+    shooty: 0
+    reload: 20
+    alternate: false
+    mirror: false
+    rotate: false
+    shootSound: shaft
+    bullet: {
+                type: SolidBulletType
+                damage: 56
+                "name": arrow,
+                homing: false
+                speed: 8.6
+                sprite: large-bomb
+                lifetime: 30
+                knockback: -1
+                backColor: ffffff
+                frontColor: ffffff
+                mixColorFrom: ffffff
+                mixColorTo: ffffff
+                width: 4
+                height: 34
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 28
+		splashDamage: 40
+		hitEffect: blastExplosion
+        trailLength: 4
+        trailColor: ffffff
+               }
+}
+
+]
+
+
+    alwaysUnlocked: true
+}

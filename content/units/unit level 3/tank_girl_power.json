@@ -1,0 +1,132 @@
+{
+"description": "A cheetah girl drives a huge tank with two machine guns and a main laser cannon.",
+"name":"tank girl power",
+"template": "ErekirUnitType",
+"type": "tank",
+"hitSize": 70,
+"crushDamage": 2,
+"treadPullOffset": 6,
+"singleTarget": false,
+"omniMovement": false,
+"faceTarget": false,
+"commands": ["move", "mine"]
+"health": 30000,
+"armor": 20,
+"speed": 1.2,
+"rotateSpeed": 1.5,
+"itemCapacity": 0,
+"outlineColor": "44413c",
+"mineRange":60,
+"mineFloor":true,
+"mineSpeed":60,
+"mineTier":10,
+"mineWalls":true
+"itemCapacity":700,
+
+"treadRects": [
+    {
+      "x": 29,
+      "y": -84,
+      "width": 30,
+      "height": 170
+    }
+  ],
+
+  "abilities": [
+
+ {
+		type: SpawnDeathAbility
+		amount: 1
+		unit: tank_girl_end
+	}
+
+
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 50,
+      "spawnY": -50,
+      "unit": "locus",
+      "spawnTime": 1000
+    }
+    
+        {
+      "type": "UnitSpawnAbility",
+      "spawnX": -50,
+      "spawnY": -50,
+      "unit": "locus",
+      "spawnTime": 1000
+    }
+  ],
+
+
+"weapons": [
+
+{
+                name: gama_x
+                mirror: false
+                alternate: true
+                continuous: true
+           	"shootY": 24,
+                top: true
+                rotate: true
+		rotateSpeed: 5
+                x: 0
+                y: -12
+                reload: 500
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: beam
+            shootEffect: none
+            bullet: {
+                type: ContinuousLaserBulletType
+                damage: 990
+                speed: 0
+                lifetime: 230
+                knockback: -1
+                backColor: 87CEEB
+                frontColor: 87CEEB
+                mixColorFrom: 87CEEB
+                mixColorTo: 87CEEB
+                width: 9
+                length: 700
+            }
+ }
+   
+{
+                name: cannon_x
+                mirror: true
+                top: true
+                rotate: true
+                "shootY": 17,
+		rotateSpeed: 3
+                x: 40
+                y: -18
+                reload: 8
+                shoot: {
+                    shots: 1
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+"bullet":{"damage":300,"height":32,"lifetime":60,speed:16
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 70
+		splashDamage: 200
+		hitEffect: blastExplosion
+        trailLength: 4
+        trailColor: FAE965
+
+}
+}
+
+  ]
+  
+      alwaysUnlocked: true
+}

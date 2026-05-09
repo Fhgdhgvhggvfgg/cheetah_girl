@@ -1,0 +1,50 @@
+{
+alwaysUnlocked: true
+name:tank girl end
+"template": "ErekirUnitType",
+canAttack:true,
+description: The final confrontation for the tank girl, as her shattered body is reunited with the wreckage of the tank for a final showdown against the enemy.
+flying:true,
+health:5400,
+hitSize: 20
+localisedName: "bolt cannon",
+speed: 6,
+"engineSize": 0, 
+rotateSpeed: 6
+"type":"flying",
+"weapons":[
+
+        {
+        outlineColor: 1ED91E
+        rotate: false
+        mirror: true
+        "shootY": 21,
+        x: 4.5
+        y: 0
+        "baseRotation": 0.0, 
+      "rotationLimit": 70.0, 
+        reload: 80
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: laserblast
+        
+    bullet: {
+      type: LaserBulletType
+        length: 390
+        width: 8
+        damage: 1200
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          8DEEEB
+          8DEEEB
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
+    }
+
+]
+}

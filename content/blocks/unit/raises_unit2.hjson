@@ -1,0 +1,37 @@
+{
+  type: "Reconstructor"
+  size: 6
+  constructTime: 1200
+  name: raises unit level 2
+  consumes: {
+    power: 2
+     items: [
+     {"item":"gold","amount":80},
+      ]
+  }
+  requirements: [
+     {"item":"gold","amount":90},
+    ]
+  upgrades: [
+    
+    [
+    geen_1miner
+    geen_2builder
+    ]
+    
+       [
+    fire_witch
+    fire_witch2
+    ]
+    
+    [
+    knight_girl1
+    knight_girl2_gold
+    ]
+    
+    
+  ]
+  category: units
+  research: Solarion-constructor
+      alwaysUnlocked: true
+}

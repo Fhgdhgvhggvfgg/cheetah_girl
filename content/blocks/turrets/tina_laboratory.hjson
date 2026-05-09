@@ -1,0 +1,55 @@
+description: A laboratory where a female scientist named Tina is inventing advanced assistive robots.
+name: tina laboratory
+type: ItemTurret
+rotateSpeed: 5
+reload: 150
+targetGround: true
+targetAir: true
+range: 276
+recoil: 8
+shootSound: door
+size: 6
+health: 5800
+xRand: 1
+shootY: 12
+maxAmmo: 1
+ammoPerShot: 1
+consumes: {
+power: 2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
+}
+}
+
+  "ammoTypes": {
+
+      "pump": {
+      type: BasicBulletType
+      ammoMultiplier: 1
+        spawnUnit: water_sprayer
+       }
+       
+             "magnet": {
+      type: BasicBulletType
+      ammoMultiplier: 1
+        spawnUnit: reformer
+       }
+       
+       "white_metal": {
+      type: BasicBulletType
+      ammoMultiplier: 1
+        spawnUnit: builder
+       }
+       
+},
+
+requirements: [
+gold_fund/6
+]
+category: turret
+parent: lancer
+research: slavo
+    alwaysUnlocked: true

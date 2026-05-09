@@ -1,0 +1,38 @@
+{
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Titan tank
+description:tank building factory.
+size: 5
+category: units
+droneType: assembly-drone
+dronesCreated: 4
+droneConstructTime: 80
+research: slavo
+requirements: [
+ 
+  gold/400
+]
+plans: [
+{
+    type: AssemblerUnitPlan
+    unit: tank_girl
+    requirements: [
+    cheetah-girl-energy_plant/24
+    cheetah-girl-nod_sa/20
+    cheetah-girl-mass_s/16
+    cheetah-girl-drill_sa_power/18
+    cheetah-girl-geen_1miner/1
+    cheetah-girl-wall_sc/20
+    ]
+    time: 3000
+  }
+]
+squareSprite: flase
+consumes: {
+  power: 1
+
+}
+areaSize: 20
+      alwaysUnlocked: true
+}

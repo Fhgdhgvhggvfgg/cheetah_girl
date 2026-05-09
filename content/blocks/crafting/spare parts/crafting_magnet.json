@@ -1,0 +1,25 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":250, 
+"description":"A laboratory manufactures modified magnetic stones using graphite and spirits.",
+"displayNane":"crafting pumps",
+"consumes":{
+    "power": 1.5, 
+    "liquid": {
+      "liquid": "Spiritual_liquid",
+      "amount": 0.02
+    }
+"items":[{"item":graphite,"amount":45}]
+}
+"health":3600,
+"itemCapacity":350,
+"name": "craftin pumps",
+"outputItem":{"item":"magnet","amount":1},
+"requirements":[{"item":"gold","amount":130}],
+"research":"crafter pumps",
+"size":1
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

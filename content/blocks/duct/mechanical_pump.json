@@ -1,0 +1,21 @@
+{
+  "type": "Pump",
+  "name": "Mechanical Pump",
+  "health": 540,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "gold",
+      "amount": 4
+    },
+  ],
+  "liquidCapacity": 10,
+  "pumpAmount": 0.5,
+  "research": "aega_junction",
+  "category": "liquid",
+  "consumes": {
+    "power": 0.5
+  },
+  "description": "Powerful fluid pump"
+  alwaysUnlocked: true
+}

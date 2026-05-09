@@ -1,0 +1,46 @@
+description: An archer on top of the tower shoots powerful arrows made of copper.
+name: Archer tower
+type: ItemTurret
+reload: 23
+rotateSpeed: 8
+targetGround: true
+targetAir: true
+range: 250
+recoil: 2
+shootSound: archer
+size: 5
+health: 3200
+AmmoPerShot: 5
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+
+
+ammoTypes: {
+    copper: {
+        damage: 90
+        speed: 16
+        height: 24
+        width: 4
+        lifetime: 17
+        fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 30
+		splashDamage: 67
+		hitEffect: blastExplosion
+        trailLength: 4
+        trailColor: FAE965
+    }
+
+
+}
+requirements: [
+gold/30
+]
+category: turret
+research: tower_archer
+
+    alwaysUnlocked: true

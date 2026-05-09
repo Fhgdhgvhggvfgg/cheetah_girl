@@ -1,0 +1,59 @@
+name: knight girl gold
+description: A warrior, Cheetah, wields a powerful hammer that destroys all her enemies..
+type: mech 
+mechLegColor: 565666FF
+health: 7800
+"template": "ErekirUnitType",
+armor: 1
+  "range": 27,
+hitSize: 20
+speed: 2
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+outlineColor: 565666FF
+weapons: [
+    {
+        "layerOffset": -0.0001, 
+        name: hammer
+        shake: 2
+        rotate: false
+        mirror: false
+        x: 0
+        y: 0
+        shootY: 10
+        reload: 40
+        recoil: -3
+        ejectEffect: casing2
+        shootSound: hammer
+            shoot: {
+      shots: 1
+      shotDelay: 10
+    }
+        
+    bullet: {
+      type: LaserBulletType
+        length: 24
+        width: 6
+        damage: 170
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          ff0000
+          ff0000
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+        		splashDamageRadius: 67
+		splashDamage: 170
+		hitEffect: blastExplosion
+        trailLength: 4
+        trailColor: ff0000
+    }
+    }
+ ]
+
+    alwaysUnlocked: true

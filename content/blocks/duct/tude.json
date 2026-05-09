@@ -1,0 +1,9 @@
+category:liquid
+"name": "tude",
+health:150
+localizedName:"tude"
+liquidCapacity:15
+requirements:[gold/1]
+research:tude
+Type:Conduit
+alwaysUnlocked: true

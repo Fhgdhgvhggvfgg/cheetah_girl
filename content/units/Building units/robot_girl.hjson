@@ -1,0 +1,106 @@
+name: robot girl
+description: A girl is connected inside a huge robot and two archers on the sides and the robot shoots to kill enemies and heal special blocks.
+speed: 1.5
+"template": "ErekirUnitType",
+type: mech
+health: 17000
+armor: 20
+rotateSpeed: 1.5
+hitSize: 44
+mechStepParticles: true
+stepShake: 1
+drownTimeMultiplier: 200
+mechFrontSway: 1
+mechSideSway: 1
+
+abilities: [
+
+ {
+		type: SpawnDeathAbility
+		amount: 2
+		unit: archer
+	}
+	
+	]
+
+weapons: [
+
+    {
+        rotate: false
+        mirror: false
+        x: 0
+        y: 15
+        reload: 30
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: flame
+              "shoot": {
+          "type": "ShootAlternate",
+          "spread":6,
+          "shots": 200,
+          "shotDelay":0.4
+      },
+        bullet: {
+        "type": "fireBulletType",
+        "collides": true,
+        "collidesAir" : true,
+        "collidesTiles" : true,
+        "collidesTeam":true,
+        "fireTrailChance" : 0,
+        "drag": 0.04,
+        "speed": 10,
+        "lifetime": 43,
+        "damage": 45,
+        "pierce": false,
+        "homingPower": 0.1,
+        "homingRange": 60,
+        "shootEffect": "none",
+        "smokeEffect": "none",
+        "colorFrom":"ff0000",
+        "colorMid":"ff0000",
+        "colorTo":"ffa500",
+        "fireEffectChance":0,
+        "fireEffectChance2":0,
+        "healPercent":0.8,
+        "velMin":4,
+        "velMax":10,
+        "ammoMultiplier":3,
+        "status":"burning",
+        "statusDuration":70
+        }
+    }
+    
+{
+                name: archer_robot
+                mirror: true
+                top: true
+                rotate: true
+                "shootY": 17,
+		rotateSpeed: 5
+                x: 40
+                y: 0
+                reload: 20
+                shoot: {
+                    shots: 1
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: archer
+            shootEffect: none
+"bullet":{"damage":200,"height":32,"lifetime":40,speed:8
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 70
+		splashDamage: 200
+		hitEffect: blastExplosion
+        trailLength: 4
+        trailColor: FAE965
+
+}
+}
+
+]
+
+
+    alwaysUnlocked: true

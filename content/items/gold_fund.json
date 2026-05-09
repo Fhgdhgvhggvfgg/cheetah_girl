@@ -1,0 +1,9 @@
+{
+  "type": "item",
+  "name": "gold fund",
+  "localizedName": "gold",
+  "description": "Very valuable item",
+  "transitionFrames": 0
+  "color": FFE200
+      alwaysUnlocked: true
+}

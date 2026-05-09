@@ -1,0 +1,88 @@
+{
+"type":"payload",
+alwaysUnlocked: false,
+buildRange:340,
+buildSpeed:8.5,
+accel: 0.06
+drag: 0.06
+ "range": 300,
+  "maxRange": 300,
+description:A mysterious Cheetah girl pulls out a cannon out of nowhere.
+outlineColor: 00000000
+"template": "ErekirUnitType",
+hitSize: 25
+canAttack:true,
+contorller:BuilderAI,
+coreUnitDock:true,
+defaultController: BuilderAI,
+flying:true,
+health:2600,
+  "engineSize": 0, 
+itemCapacity: 150,
+localisedName: "sandy",
+mineFloor:true
+mineRange: 250
+"mineSpeed":20,
+mineTier: 11
+mineWalls:true
+speed: 9,
+"rotateSpeed": 8.5,
+"payloadCapacity": 1500,
+
+
+abilities:[
+
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 0,
+      "spawnY": -40,
+      "unit": "treasure_chest",
+      "spawnTime": 2400
+    },
+
+]
+
+weapons: [
+   {
+   name: nuclear
+    x: 0
+    y: 12
+    reload: 150
+     "heatTime": 90,
+  "heatColor": "FFFFFF",
+    alternate: true
+    shooty: 4
+    mirror: true
+    rotate: false
+    shootSound: archer
+            bullet: {
+              type: SolidBulletType
+                damage: 1
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 20
+                knockback: -1
+                backColor: 8DEEEB
+                frontColor: 8DEEEB
+                mixColorFrom: 8DEEEB
+                mixColorTo: 8DEEEB
+                width: 34
+                height: 34
+         fragBullets: 1
+        fragVelocityMin: 0.2
+        fragRandomSpread: 180
+        fragSpread: 360
+        fragLifeMin: 0.8
+        fragBullet: {
+      type: BasicBulletType
+        spawnUnit: air_force
+       }
+       }
+}
+   ]
+   
+
+
+    alwaysUnlocked: true
+}

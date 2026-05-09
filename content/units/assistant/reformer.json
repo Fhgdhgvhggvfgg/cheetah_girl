@@ -1,0 +1,57 @@
+{
+alwaysUnlocked: true
+"template": "ErekirUnitType",
+alwaysUnlocked: false,
+canAttack:true,
+coreUnitDock:true,
+flying:true,
+defaultCommand: repair
+description: A drone repairs the damaged blocks..
+health:700,
+hitSize: 10
+localisedName: "reformer z",
+speed: 6,
+rotateSpeed: 6
+  "engineSize": 0, 
+commands: [move, repair]
+"type":"flying",
+
+abilities:[
+
+]
+
+"weapons":[
+
+    {
+        rotate: false
+        mirror: false
+        x: 0
+        y: 0
+        reload: 30
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: bolt
+        
+    bullet: {
+                type: SolidBulletType
+                damage: 40
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 20
+                "collidesTeam":true,
+                "healPercent":7,
+                knockback: -1
+                backColor: 1ED91E
+                frontColor: 1ED91E
+                mixColorFrom: 1ED91E
+                mixColorTo: 1ED91E
+                width: 10
+                height: 10
+
+               }
+    }
+
+]
+alwaysUnlocked: true
+}

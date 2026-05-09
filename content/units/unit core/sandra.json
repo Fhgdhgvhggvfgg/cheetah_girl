@@ -1,0 +1,74 @@
+{
+"type":"payload",
+alwaysUnlocked: false,
+buildRange:300,
+buildSpeed:6.5,
+accel: 0.06
+drag: 0.06
+description:Cheetah Girl with a Robotic Laser Arm, Fast Building and Digging
+outlineColor: 8DEEEB
+"template": "ErekirUnitType",
+hitSize: 25
+canAttack:true,
+contorller:BuilderAI,
+coreUnitDock:true,
+defaultController: BuilderAI,
+flying:true,
+health:2800,
+  "engineSize": 0, 
+itemCapacity: 150,
+localisedName: "sandra",
+mineFloor:true
+mineRange: 260
+"mineSpeed":18,
+mineTier: 11
+mineWalls:true
+speed: 9,
+"rotateSpeed": 8.5,
+"payloadCapacity": 1500,
+
+
+abilities:[
+
+    {
+      "type": "UnitSpawnAbility",
+      "spawnX": 0,
+      "spawnY": -40,
+      "unit": "treasure_chest",
+      "spawnTime": 2400
+    },
+
+]
+
+weapons: [
+   {
+    x: 0
+    y: 11
+    reload: 20
+    alternate: true
+    mirror: true
+    rotate: false
+    shootSound: lazer
+    bullet: {
+      type: LaserBulletType
+        length: 220
+        width: 6
+        damage: 96
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          8DEEEB
+          8DEEEB
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
+}
+   ]
+   
+
+
+    alwaysUnlocked: true
+}

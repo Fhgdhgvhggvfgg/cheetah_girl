@@ -1,0 +1,16 @@
+
+  {
+  description:The Masa Core is an advanced golden core that can withstand high damage and has a large element capacity..
+alwaysUnlocked:true,
+"category": "effect",
+health:30000
+isFirstTier:true
+itemCapacity: 60000
+localizedName: "Masa base",
+requirements: [{"item":"gold","amount":0}]
+size:10
+type:CoreBlock
+unitCapModifier: 60
+unitType:masa
+}
+

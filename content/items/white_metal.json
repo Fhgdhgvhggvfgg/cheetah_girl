@@ -1,0 +1,8 @@
+{
+  "type": "item",
+  "name": "magnet",
+  "localizedName": "white metal",
+  "description": "A box made of precious white metal",
+  "color": FFFFFF
+      alwaysUnlocked: true
+}

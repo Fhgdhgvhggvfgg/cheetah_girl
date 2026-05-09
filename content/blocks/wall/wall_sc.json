@@ -1,0 +1,12 @@
+{
+  "name": "wall sc",
+  "description": "my Strong defense made of surge alloy",
+  "type": "Wall",
+  "health": 4600,
+  "size": 1,
+  "requirements": [{"item": "gold","amount": 16}],
+  "category": "defense",
+  "research": {}
+  
+    alwaysUnlocked: true
+}

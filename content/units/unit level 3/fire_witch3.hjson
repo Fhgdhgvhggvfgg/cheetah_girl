@@ -1,0 +1,252 @@
+name: fire witch dragon
+description: A 3rd cheetah girl level mage who can spit fire far and heal herself.
+type: mech 
+mechLegColor: 565666FF
+health: 4500
+armor: 1
+"template": "ErekirUnitType",
+hitSize: 30
+stepShake: 0
+speed: 4
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+
+abilities:[
+ 
+ {
+		type: SpawnDeathAbility
+		amount: 2
+		unit: dragon
+	}
+ 
+
+ {
+  type:MoveEffectAbility
+  teamColor:true
+  effect:missileTrailShort
+  x:7
+  y:9
+  interval:0.5
+  minVelocity:0.9
+ }
+ 
+  {
+  type:MoveEffectAbility
+  teamColor:true
+  effect:missileTrailShort
+  x:-7
+  y:9
+  interval:0.5
+  minVelocity:0.9
+ }
+ 
+  ],
+
+
+weapons: [
+
+    {
+        name: light_cannon
+        rotate: true
+        mirror: true
+        x: 7
+        y: 7
+        reload: 50
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: flame
+        shootStatus: heal_same
+        
+                        bullet: {
+      type: BasicBulletType
+        sprite: circle-bullet
+        lightRadius: 10
+        lightColor: FF7436FF
+        damage: 560
+        scaleVelocity: true
+        splashDamage: 450
+        splashDamageRadius: 60
+        height: 6
+        width: 6
+        speed: 8
+        lifetime: 45
+        shrinkX: 0
+        shrinkY: 0
+        trailChance: 1
+        trailParam: 10
+        trailLength: 19
+        trailColor: FF7436FF
+        trailWidth: 5
+        trailEffect: {
+          type: ParticleEffect
+          particles: 10
+          length: 3
+          baseLength: 3
+          lifetime: 25
+          interp: circleOut
+          cone: 360
+          offset": 3
+          lightColor: FF7436FF
+          colorFrom: fff8e8
+          colorTo: FF7436FF
+          sizeFrom: 3
+          sizeTo: 0
+        },
+        despawnEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          lifetime: 40
+          length: 20
+          cone: 50
+          offset: 16
+          lightcolor: FFFF00
+          interp: circleOut
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FF7436FF
+          colorTo: FFFFF00
+          },
+          {
+          type: ParticleEffect
+          particles: 6
+          lifetime: 14
+          length: 20
+          cone: 50
+          offset: 16
+          lightcolor: FF7436FF
+          interp: circleOut
+          lenFrom: 7
+          lenTo: 7
+          colorFrom: FFFFF00
+          colorTo: FF7436FF
+           },
+        ]
+       }
+        
+
+    }
+    
+    
+    
+        {
+        name: dragon
+        rotate: true
+        mirror: false
+        x: 30
+        y: 0
+        reload: 3
+        	"shootY": 15,
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: flame
+        	bullet: {
+		"type": "BasicBulletType",
+		"collidesAir": true,
+		"speed": 5,
+		"damage": 90,
+		"width": 0.1,
+		"height": 0.1,
+		
+		shootEffect: {
+			"type": "ParticleEffect",
+			"particles": 40,
+			"sizeFrom": 8,
+			"sizeTo": 0,
+			"length": 600,
+			"lifetime": 130,
+			"interp": "circleOut",
+			"lightColor": "FF5845FF",
+			"colorFrom": "FFDCD8FF",
+			"colorTo": "FF5845FF",
+			"cone": 10
+		}
+		
+		"smokeEffect": "none",
+		"lifetime": 60,
+		"despawnEffect": "none",
+		"hittable": false,
+		"reflectable": false,
+		
+		hitEffect: {
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 5,
+			"lifetime": 60,
+			"interp": "circleOut",
+			"length": 50,
+			"cone": -30,
+			"lenFrom": 5,
+			"lenTo": 0,
+			"colorFrom": "FF5845FF",
+			"colorTo": "FF5845FF"
+		}
+		
+		"pierce": true,
+		"incendAmount": 5
+	}
+        }
+        
+                {
+        name: dragon
+        rotate: true
+        mirror: false
+        x: -30
+        y: 0
+        reload: 3
+        	"shootY": 17,
+        recoil: 1
+        ejectEffect: casing2
+        shootSound: flame
+        	bullet: {
+		"type": "BasicBulletType",
+		"collidesAir": true,
+		"speed": 5,
+		"damage": 90,
+		"width": 0.1,
+		"height": 0.1,
+		
+		shootEffect: {
+			"type": "ParticleEffect",
+			"particles": 40,
+			"sizeFrom": 8,
+			"sizeTo": 0,
+			"length": 600,
+			"lifetime": 130,
+			"interp": "circleOut",
+			"lightColor": "FF5845FF",
+			"colorFrom": "FFDCD8FF",
+			"colorTo": "FF5845FF",
+			"cone": 10
+		}
+		
+		"smokeEffect": "none",
+		"lifetime": 60,
+		"despawnEffect": "none",
+		"hittable": false,
+		"reflectable": false,
+		
+		hitEffect: {
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 5,
+			"lifetime": 60,
+			"interp": "circleOut",
+			"length": 50,
+			"cone": -30,
+			"lenFrom": 5,
+			"lenTo": 0,
+			"colorFrom": "FF5845FF",
+			"colorTo": "FF5845FF"
+		}
+		
+		"pierce": true,
+		"incendAmount": 5
+	}
+        }
+
+]
+
+    alwaysUnlocked: true

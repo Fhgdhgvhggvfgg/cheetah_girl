@@ -1,0 +1,48 @@
+type:flying
+flying:true
+name:miner
+description:Miner with a puncture-proof bag
+"template": "ErekirUnitType",
+health:500
+  "lowAltitude": true,
+speed:3
+armor:4
+"hitSize":20
+rotateSpeed:4
+useEngineElevation:false
+faceTarget:true
+commands: [move]
+outlineColor:000000
+"defaultController":"MinerAI",
+"mineRange":100,
+"mineFloor":true,
+"mineSpeed":2.5,
+"mineTier":3,
+"mineWalls":true
+"itemCapacity":30,
+
+abilities:[
+
+ {
+  type:MoveEffectAbility
+  teamColor:true
+  effect:missileTrailShort
+  x:4
+  y:-8
+  interval:1
+  minVelocity:0.9
+ }
+ 
+  {
+  type:MoveEffectAbility
+  teamColor:true
+  effect:missileTrailShort
+  x:-4
+  y:-8
+  interval:1
+  minVelocity:0.9
+ }
+ 
+]
+
+     alwaysUnlocked: true

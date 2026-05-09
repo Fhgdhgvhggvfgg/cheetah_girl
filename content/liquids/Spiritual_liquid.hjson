@@ -1,0 +1,8 @@
+"description": "A drink for lovers",
+name: "Spiritual liquid",
+"gas": false,
+"cache": "water",
+heatCapacity:1.1
+"barColor": "ffffff"
+color: ffffff
+

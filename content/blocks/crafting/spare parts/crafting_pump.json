@@ -1,0 +1,25 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":250, 
+"description":"A factory that manufactures pipes and pumps using silicone.",
+"displayNane":"crafting pumps",
+"consumes":{
+    "power": 1.5, 
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.02
+    }
+"items":[{"item":silicon,"amount":60}]
+}
+"health":3600,
+"itemCapacity":300,
+"name": "craftin pumps",
+"outputItem":{"item":"pump","amount":1},
+"requirements":[{"item":"gold","amount":100}],
+"research":"crafter pumps",
+"size":1
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

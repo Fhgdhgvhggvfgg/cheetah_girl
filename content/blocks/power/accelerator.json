@@ -1,0 +1,31 @@
+{
+  "type": "OverdriveProjector",
+  "name": "custom-accelerator",
+  "localizedName": "Custom Accelerator",
+  "description": "A custom block that accelerates the production speed of nearby blocks.",
+  "category": "effect",
+  "size": 2,
+  "requirements": [
+    { "item": "gold", "amount": 50 },
+  ],
+
+  "baseColor": "87CEEB",
+  "range": 60,
+  "speedBoost": 1.7,
+  "powerConsumption": 1.5,
+  "liquidCapacity": 20,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1,
+      "optional": true,
+      "booster": true 
+    }
+  },
+
+  "liquidBoost": 1.4,
+  "warmup": 60,
+  "activeEffectIntensity": 0.6,
+  "health": 200,
+alwaysUnlocked: true
+}

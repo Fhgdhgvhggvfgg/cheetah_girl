@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "gold",
+  "localizedName": "gold",
+  "description": "Very valuable item",
+  "frames": 5,
+  "frameTime": 10,
+  "transitionFrames": 0
+  "color": FFFF00
+      alwaysUnlocked: true
+}

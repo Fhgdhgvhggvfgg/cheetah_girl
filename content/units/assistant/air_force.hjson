@@ -1,0 +1,39 @@
+type: missile
+name:air force
+flying:true
+description:cheetah.
+health:1500
+useUnitCap: false
+speed:0
+armor:4
+hitSize:10
+rotateSpeed:8
+lifetime: 480
+useEngineElevation:false
+"engineSize": 0, 
+faceTarget:true
+outlineColor:000000
+"template": "ErekirUnitType",
+
+abilities:[
+
+]
+
+"weapons": [
+{
+                mirror: false
+                top: true
+                rotate: false
+                "shootY": 6,
+                x: 0
+                y: 0
+                reload: 30
+            inaccuracy: 0
+            recoil: 0
+            shootSound: bolt
+            shootEffect: none
+"bullet":{"damage":45,"height":32,"lifetime":10,speed:10}
+}
+
+]
+alwaysUnlocked: true

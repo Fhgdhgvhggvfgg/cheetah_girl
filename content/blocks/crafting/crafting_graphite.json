@@ -1,0 +1,25 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":50, 
+"description":"Graphite production plant using spirit liquid",
+"displayNane":"crafting graphite",
+"consumes":{
+    "power": 1.5, 
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.02
+    }
+"items":[]
+}
+"health":3600,
+"itemCapacity":40,
+"name": "craftin graphite",
+"outputItem":{"item":"graphite","amount":1},
+"requirements":[{"item":"gold","amount":30}],
+"research":"crafter graphite",
+"size":2
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

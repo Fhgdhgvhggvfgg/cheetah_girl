@@ -1,0 +1,25 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":250, 
+"description":"A factory that produces white metal from sand and spirit liquids.",
+"displayNane":"crafting white metal",
+"consumes":{
+    "power": 1.5, 
+    "liquid": {
+      "liquid": "Spiritual_liquid",
+      "amount": 0.02
+    }
+"items":[{"item":sand,"amount":90}]
+}
+"health":3600,
+"itemCapacity":300,
+"name": "craftin white metal",
+"outputItem":{"item":"white_metal","amount":1},
+"requirements":[{"item":"gold","amount":130}],
+"research":"crafter white metal",
+"size":1
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

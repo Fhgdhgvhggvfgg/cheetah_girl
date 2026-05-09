@@ -1,0 +1,25 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":80, 
+"description":"Advanced laboratory produces gold using energy and Spiritual liquid and silicon",
+"displayNane":"crafting gold 3",
+"consumes":{
+    "power": 1.5, 
+    "liquid": {
+      "liquid": "Spiritual_liquid",
+      "amount": 0.02
+    }
+"items":[{"item":silicon,"amount":2}]
+}
+"health":3600,
+"itemCapacity":60,
+"name": "craftin gold 3",
+"outputItem":{"item":"gold","amount":1},
+"requirements":[{"item":"gold","amount":260}],
+"research":"crafter gold",
+"size":3
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

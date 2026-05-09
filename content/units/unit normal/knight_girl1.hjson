@@ -1,0 +1,56 @@
+name: knight girl
+description: A powerful, massive knight who is an assistant to the Fire Witch.
+type: mech 
+mechLegColor: 565666FF
+health: 3400
+"template": "ErekirUnitType",
+armor: 1
+  "range": 27,
+hitSize: 20
+speed: 2
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+outlineColor: 565666FF
+weapons: [
+    {
+        "layerOffset": -0.0001, 
+        name: sword
+        rotate: true
+        mirror: false
+        rotateSpeed: 7
+        x: -7
+        y: -2
+        shootY: 10
+        reload: 34
+        recoil: -6
+        ejectEffect: casing2
+        "baseRotation": 0.0, 
+      "rotationLimit": 70.0, 
+        shootSound: shaft
+            shoot: {
+      shots: 1
+      shotDelay: 10
+    }
+        
+    bullet: {
+      type: LaserBulletType
+        length: 24
+        width: 6
+        damage: 100
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          8DEEEB
+          8DEEEB
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
+    }
+ ]
+
+    alwaysUnlocked: true

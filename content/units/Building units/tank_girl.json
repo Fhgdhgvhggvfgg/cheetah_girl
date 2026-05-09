@@ -1,0 +1,101 @@
+{
+"description": "A cheetah girl drives a huge tank with two machine guns and a main laser cannon.",
+"name":"tank girl",
+"template": "ErekirUnitType",
+"type": "tank",
+"hitSize": 55,
+"crushDamage": 2,
+"treadPullOffset": 6,
+"singleTarget": false,
+"omniMovement": false,
+"faceTarget": false,
+"commands": ["move", "mine"]
+"health": 20000,
+"armor": 20,
+"speed": 2,
+"rotateSpeed": 3.5,
+"itemCapacity": 0,
+"outlineColor": "44413c",
+"mineRange":60,
+"mineFloor":true,
+"mineSpeed":30,
+"mineTier":10,
+"mineWalls":true
+"itemCapacity":500,
+
+"treadRects": [
+    {
+      "x": 29,
+      "y": -84,
+      "width": 30,
+      "height": 170
+    }
+  ],
+
+  "abilities": [
+
+  ],
+
+
+"weapons": [
+
+{
+                name: gama
+                mirror: false
+                alternate: true
+                continuous: true
+           	"shootY": 17,
+                top: true
+                rotate: true
+		rotateSpeed: 5
+                x: 0
+                y: 16
+                reload: 350
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: beam
+            shootEffect: none
+            bullet: {
+                type: ContinuousLaserBulletType
+                damage: 670
+                speed: 0
+                lifetime: 140
+                knockback: -1
+                backColor: 87CEEB
+                frontColor: 87CEEB
+                mixColorFrom: 87CEEB
+                mixColorTo: 87CEEB
+                width: 5
+                length: 600
+            }
+ }
+   
+{
+                name: cannon
+                mirror: true
+                top: true
+                rotate: true
+                "shootY": 17,
+		rotateSpeed: 3
+                x: 15
+                y: -15
+                reload: 5
+                shoot: {
+                    shots: 1
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+"bullet":{"damage":110,"height":32,"lifetime":50,speed:16}
+}
+   
+  ]
+  
+      alwaysUnlocked: true
+}

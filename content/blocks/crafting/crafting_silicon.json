@@ -1,0 +1,18 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":40, 
+"description":"",
+"displayNane":"create cpe3",
+"consumes":{"power":1,"items":["graphite/1", "sand/4"]},
+"health":3600,
+"itemCapacity":100,
+"name": "creat silicon",
+"outputItem":{"item":"silicon","amount":6},
+"requirements":[{"item":"gold","amount":23}],
+"research":"crafter gold",
+"size":2
+"type": "GenericCrafter",
+
+    alwaysUnlocked: true
+}

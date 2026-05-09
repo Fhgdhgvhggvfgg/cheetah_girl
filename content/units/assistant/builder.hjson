@@ -1,0 +1,27 @@
+"type":"payload",
+  "flying": true,
+"payloadCapacity": 0,
+flying:true
+name:cheetah bolt
+description:A drone assists the commander in construction.
+"template": "ErekirUnitType",
+health:400
+speed:3
+armor:4
+"hitSize":10
+rotateSpeed:4
+useEngineElevation:false
+faceTarget:true
+defaultCommand: assist
+commands: [move, assist]
+outlineColor:000000
+buildRange:100,
+"engineSize": 0, 
+buildSpeed:1.8,
+
+abilities:[
+
+]
+
+
+     alwaysUnlocked: true

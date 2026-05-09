@@ -1,0 +1,37 @@
+{
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Titan robot
+description:robot building factory.
+size: 5
+category: units
+droneType: assembly-drone
+dronesCreated: 4
+droneConstructTime: 80
+research: slavo
+requirements: [
+ 
+  gold/500
+]
+plans: [
+{
+    type: AssemblerUnitPlan
+    unit: robot_girl
+    requirements: [
+    cheetah-girl-archer_tower/2
+    cheetah-girl-girl_watts/1
+    cheetah-girl-wall_sc/16
+    cheetah-girl-crafting_copper/22
+    cheetah-girl-f_water/5
+    ]
+    time: 3400
+  }
+]
+squareSprite: flase
+consumes: {
+  power: 1
+
+}
+areaSize: 20
+      alwaysUnlocked: true
+}

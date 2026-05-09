@@ -1,0 +1,41 @@
+{
+  type: "Reconstructor"
+  size: 7
+  constructTime: 2300
+  name: raises unit level 3
+  consumes: {
+    power: 2
+     items: [
+     {"item":"gold_fund","amount":12},
+      ]
+  }
+  requirements: [
+     {"item":"gold_fund","amount":16},
+    ]
+  upgrades: [
+    
+    [
+    geen_2builder
+    geen_3load
+    ]
+    
+      [
+    fire_witch2
+    fire_witch3
+    ]
+    
+    [
+    tank_girl
+    tank_girl_power
+    ]
+    
+    [
+    knight_girl2_gold
+    knight_girl3_diamond
+    ]
+    
+  ]
+  category: units
+  research: raises unit level 3
+      alwaysUnlocked: true
+}

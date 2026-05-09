@@ -1,0 +1,21 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":50, 
+"description":"",
+"displayNane":"crafting sand",
+"consumes":{
+    "power": 1, 
+"items":[]
+}
+"health":3600,
+"itemCapacity":40,
+"name": "craftin sand",
+"outputItem":{"item":"sand","amount":1},
+"requirements":[{"item":"gold","amount":26}],
+"research":"crafter sand",
+"size":3
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

@@ -1,0 +1,47 @@
+name: archer
+description: Cheetah, an archer, fights after the robot that carried her is destroyed.
+type: mech 
+mechLegColor: 565666FF
+health: 2700
+armor: 1
+"template": "ErekirUnitType",
+hitSize: 30
+speed: 3
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+outlineColor: 565666FF
+weapons: [
+{
+                mirror: false
+                top: true
+                rotate: false
+                "shootY": 17,
+                x: 0
+                y: 0
+                reload: 40
+                shoot: {
+                    shots: 1
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: archer
+            shootEffect: none
+"bullet":{"damage":200,"height":32,"lifetime":40,speed:8
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 70
+		splashDamage: 200
+		hitEffect: blastExplosion
+        trailLength: 4
+        trailColor: FAE965
+
+}
+}
+ ]
+
+
+research: dagger
+    alwaysUnlocked: true

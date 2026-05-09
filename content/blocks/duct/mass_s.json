@@ -1,0 +1,13 @@
+category: distribution
+consumes: {},
+"description":"A mass that throws elements to a long distance.",  
+health: 560
+itemCapacity: 60
+localisedName: mass small
+range: 180
+requirements:[gold/14]
+research:{"parent":"mass_s"}
+size: 1
+type: MassDriver
+
+    alwaysUnlocked: true

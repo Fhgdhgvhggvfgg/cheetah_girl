@@ -1,0 +1,8 @@
+{
+  "type": "item",
+  "name": "magnet",
+  "localizedName": "magnet",
+  "description": "Modified magnetic stone box",
+  "color": 3C20B0
+      alwaysUnlocked: true
+}

@@ -1,0 +1,25 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":45, 
+"description":"A laboratory that converts gold into copper using water",
+"displayNane":"crafting gold copper",
+"consumes":{
+"items":[{"item":gold,"amount":1}]
+
+   "liquid": {
+            "liquid": "water",
+            "amount": 0.5
+        }
+}
+"health":3600,
+"itemCapacity":80,
+"name": "crafting copper",
+"outputItem":{"item":"copper","amount":28},
+"requirements":[{"item":"gold","amount":20}],
+"research":"crafter gold",
+"size":2
+"type": "GenericCrafter",
+
+    alwaysUnlocked: true
+}

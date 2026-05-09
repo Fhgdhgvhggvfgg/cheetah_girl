@@ -1,0 +1,24 @@
+Name: energy plant
+description: Element-powered gold element.
+type: ConsumeGenerator
+size: 1
+health: 2000
+hasItems: true
+hasLiquids: true
+hasPower: true
+liquidCapacity: 25
+itemDuration: 440
+powerProduction: 4
+itemCapacity:56
+consumes: {
+     items: [
+     {"item":"gold","amount":1},
+      ]
+}
+requirements: [
+gold/18
+]
+category: power
+research: silicon-forge
+
+      alwaysUnlocked: true

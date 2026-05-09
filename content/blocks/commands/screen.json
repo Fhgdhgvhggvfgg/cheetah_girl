@@ -1,0 +1,54 @@
+{
+  "type": "LogicDisplay",
+  "name": "large-logic-display",
+  "description": "A larger display for showing information from processors. Use [stat]drawflush[] to display things.
+
+unit names:
+
+@cheetah-girl-valka
+@cheetah-girl-masa
+@cheetah-girl-sandy
+@cheetah-girl-sandra
+
+@cheetah-girl-TTX
+@cheetah-girl-air_force
+@cheetah-girl-treasure_chest
+@cheetah-girl-builder
+@cheetah-girl-reformer
+@cheetah-girl-water_sprayer
+@cheetah-girl-dragon
+@cheetah-girl-archer
+
+@cheetah-girl-fire_witch
+@cheetah-girl-knight_girl1
+@cheetah-girl-geen_1miner
+
+@cheetah-girl-fire_witch2
+@cheetah-girl-knight_girl2_gold
+@cheetah-girl-geen_2builder
+
+@cheetah-girl-fire_witch3
+@cheetah-girl-knight_girl3_diamond
+@cheetah-girl-geen_3load
+
+@cheetah-girl-tank_girl
+@cheetah-girl-tank_girl_end
+@cheetah-girl-tank_girl_power
+@cheetah-girl-robot_girl
+
+",
+  "size": 10,
+  "alwaysUnlocked": true
+  "health": 400,
+  "displaySize": 320,
+  "maxInstructions": 300,
+  "requirements": [
+    {
+      "item": "gold",
+      "amount": 7
+    },
+  ],
+  "category": "logic",
+
+  "env": 1
+}

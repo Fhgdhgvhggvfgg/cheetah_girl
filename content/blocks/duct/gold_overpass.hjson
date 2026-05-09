@@ -1,0 +1,15 @@
+{
+  "type": "DuctBridge",
+  "name": "gold overpass",
+  "description": "junction finallyaa",
+  "health": 1000,
+  "size": 1,
+  "requirements": [
+    {"item": "gold", "amount": 7}
+  ],
+  "category": "distribution",
+  "configurable": true,
+  "config": "point",
+  "range": 6,
+  "alwaysUnlocked": true
+}

@@ -1,0 +1,58 @@
+{
+"name": "create unit",
+"category":"units",
+
+  consumes: {
+    power: 1
+        "liquid": {
+      "liquid": "Spiritual_liquid",
+      "amount": 0.03
+    }
+    }
+    
+    
+"plans":[
+
+{
+"unit":"geen_1miner",
+"requirements":[
+"gold/9"
+],
+"time":600
+}
+
+{
+"unit":"fire_witch",
+"requirements":[
+"gold/18"
+],
+"time":1000
+}
+
+{
+"unit":"knight_girl1",
+"requirements":[
+"gold/15"
+],
+"time":600
+}
+
+{
+"unit":"treasure_chest",
+"requirements":[
+"gold/34"
+],
+"time":600
+}
+
+
+],
+
+
+"requirements":["gold/56"],
+"research":"ceate-wizard",
+"size":5,
+"type":"UnitFactory",
+"unitCapModifier":5,
+    alwaysUnlocked: true
+}

@@ -1,0 +1,29 @@
+Name: energy plant
+description: Modified power station running on gold and spirit liquid and silicon.
+type: ConsumeGenerator
+size: 3
+health: 2670
+hasItems: true
+hasLiquids: true
+hasPower: true
+liquidCapacity: 25
+itemDuration: 1000
+powerProduction: 16
+itemCapacity:56
+consumes: {
+     items: [
+     {"item":"gold","amount":3},
+     {"item":"silicon","amount":1},
+      ]
+          "liquid": {
+      "liquid": "Spiritual_liquid",
+      "amount": 0.01
+    }
+}
+requirements: [
+gold/256
+]
+category: power
+research: silicon-forge
+
+      alwaysUnlocked: true

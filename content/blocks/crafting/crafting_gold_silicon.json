@@ -1,0 +1,19 @@
+{
+"category":"crafting"
+"craftEffect":"smeltsmoke",
+"craftTime":320, 
+"description":"primitive coin lab",
+"displayNane":"crafting coins silicon",
+"consumes":{
+"items":[{"item":"silicon","amount":6}]
+}
+"health":3,
+"itemCapacity":20,
+"name": "crafting coins",
+"outputItem":{"item":"gold","amount":1},
+"requirements":[{"item":"gold","amount":0}],
+"size":1
+"type": "GenericCrafter",
+
+  "alwaysUnlocked": true,
+}

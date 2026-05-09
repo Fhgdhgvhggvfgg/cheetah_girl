@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "Spiritual liquid factory",
+  "localizedName": "Drink Mixer",
+  "description": "A machine that makes a drink using love",
+  "size": 2, 
+  
+  "requirements": [
+    { "item": "gold", "amount": 40}
+  ],
+  
+  "consumes": {
+    "power": 1.5, 
+    "items": {
+      "items": [
+        { "item": "gold", "amount": 1 }
+      ],
+      "optional": false
+    },
+  },
+  
+  "outputLiquid": {
+    "liquid": "Spiritual_liquid",
+    "amount": 0.5
+  },
+  "craftTime": 60, 
+  "craftEffect": "steam",
+  
+  "health": 2300,
+  "category": "production", 
+   alwaysUnlocked: true
+}

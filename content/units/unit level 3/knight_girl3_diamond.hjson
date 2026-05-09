@@ -1,0 +1,100 @@
+name: knight girl diamond
+description: Cheetah is a warrior girl who fights with two powerful spears and is invincible.
+type: mech 
+mechLegColor: 565666FF
+health: 45000
+"template": "ErekirUnitType",
+armor: 1
+  "range": 27,
+hitSize: 20
+speed: 3.4
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+itemCapacity: 12
+outlineColor: 565666FF
+
+abilities:[
+ {
+  type:ShieldArcAbility
+  y:0
+  radius:20
+  max:2400
+  regen:0.6
+  cooldown:320
+  width:3
+  angle:120
+  color:84f491
+  whenShooting:false
+ }
+ {
+  type:ShieldArcAbility
+  y:0
+  angleOffset:120
+  radius:20
+  max:2400
+  regen:0.6
+  cooldown:320
+  width:3
+  angle:120
+  color:84f491
+  whenShooting:false
+ }
+ {
+  type:ShieldArcAbility
+  y:0
+  angleOffset:240
+  radius:20
+  max:2400
+  regen:0.6
+  cooldown:320
+  width:3
+  angle:120
+  color:84f491
+  whenShooting:false
+ }
+ ]
+
+weapons: [
+    {
+        "layerOffset": -0.0001, 
+        name: Diamond_Spear
+        rotate: true
+        mirror: true
+        rotateSpeed: 7
+        x: -7
+        y: -2
+        shootY: 10
+        reload: 17
+        recoil: -6
+        ejectEffect: casing2
+        "baseRotation": 0.0, 
+      "rotationLimit": 70.0, 
+        shootSound: shaft
+         shootStatus: heal_same
+            shoot: {
+      shots: 1
+      shotDelay: 10
+    }
+        
+    bullet: {
+      type: LaserBulletType
+        length: 24
+        width: 6
+        damage: 780
+        hitEffect: lightningShoot
+        shootEffect: lightningShoot
+        colors: [
+          8DEEEB
+          8DEEEB
+          FFFFFF
+        ],
+        sideAngle: -45
+        sideLength: 30
+        sideWidth: 3.4
+    }
+    }
+ ]
+
+
+    alwaysUnlocked: true
