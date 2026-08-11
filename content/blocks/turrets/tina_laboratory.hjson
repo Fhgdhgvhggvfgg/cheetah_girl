@@ -24,6 +24,11 @@ coolant: {
 }
 }
 
+                shoot: {
+      shots: 3
+      shotDelay: 30
+    }
+
   "ammoTypes": {
 
       "pump": {
